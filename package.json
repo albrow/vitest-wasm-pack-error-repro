@@ -14,18 +14,13 @@
     "test": "npm run test:rust && npm run test:rust-wasm && npm run test:js"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
     "@vitejs/plugin-react": "^2.1.0",
     "jsdom": "^20.0.3",
     "prettier": "^2.8.1",
     "rimraf": "^3.0.0",
-    "typescript": "^4.8.2",
     "vite": "^3.1.7",
     "vite-plugin-wasm-pack": "^0.1.12",
-    "vitest": "^0.26.3"
-  },
-  "dependencies": {
-    "@mdx-js/rollup": "^2.1.5"
+    "vitest": "^0.26.3",
+    "wasm-pack": "^0.12.1"
   }
 }
